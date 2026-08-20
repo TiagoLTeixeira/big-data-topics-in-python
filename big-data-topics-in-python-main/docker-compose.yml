@@ -1,0 +1,7 @@
+services:
+  analysis:
+    build: .
+    image: it-female-participation
+    restart: "no"
+    volumes:
+      - .:/app
